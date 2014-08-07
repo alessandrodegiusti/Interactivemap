@@ -1,0 +1,36 @@
+/**
+ * written by Juhwan Park with a reference to a tutorial on Lynda.com
+ */
+
+.map_container {
+    position: relative;
+    float: right;
+    background: url(../images/map.jpg) no-repeat 0 0;
+    height: 325px;
+    width: 760px;
+    font-family: Arial;
+    font-size: 12px;
+}
+
+.map_container a.dot {
+    background: url(../images/dots.png) no-repeat 0 0;
+    position: absolute;
+    cursor: pointer;
+    display: block;
+    height: 20px;
+    width: 20px;
+}
+
+.map_container a.dot:hover {
+    background-position: 0 -20px;
+}
+
+.map_container a.dot.selected {
+    background-position: 0 -40px;
+}
+
+#mapForm {
+    position: absolute;
+    top: 265px;
+    left: 30px;
+}

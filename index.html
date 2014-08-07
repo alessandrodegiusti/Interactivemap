@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+        <title>InteractiveMap</title>
+        <link href="includes/map.css" type="text/css" rel="stylesheet"/>
+        <script type="text/javascript" src="includes/jquery-1.5.min.js"></script>
+        <script type="text/javascript" src="includes/map.js"></script>
+    </head>
+
+    <body>
+        <div class="map_container">
+            
+            <a class="dot" style="top:71px; left:236px;" continent="EU" city="london"></a>
+            <a class="dot" style="top:99px;  left:113px;" continent="NA" city="dallas"></a>
+            <a class="dot" style="top:83px;  left:87px;"  continent="NA" city="seattle"></a>
+            <a class="dot" style="top:173px; left:387px;" continent="AU" city="perth" ></a>
+            <a class="dot" style="top:102px; left:271px;" continent="AF" city="tripoli"></a>
+            <a class="dot" style="top:134px; left:153px;" continent="SA" city="bogota"></a>
+            <a class="dot" style="top:93px;  left:141px;" continent="NA" city="newyorkcity"></a>
+            <a class="dot" style="top:115px; left:375px;" continent="AS" city="phompenh"></a>
+            <a class="dot" style="top:89px;  left:386px;" continent="AS" city="tianjin"></a>
+            <a class="dot" style="top:195px; left:153px;" continent="SA" city="puntaarenas"></a>
+            <a class="dot" style="top:96px;  left:320px;" continent="ME" city="buxoro"></a>
+            <a class="dot" style="top:113px; left:343px;" continent="ME" city="anakapalle"></a>
+            <a class="dot" style="top:110px; left:299px;" continent="ME" city="albahr"></a>
+            <a class="dot" style="top:84px;  left:257px;" continent="EU" city="rome"></a>
+            <a class="dot" style="top:76px;  left:273px;" continent="EU" city="warszawa"></a>
+            
+            <form id="mapForm" action="" method="post">
+                <select name="continent" class="continent">
+                    <option value="ALL">All Continents</option>
+                    <option value="AF">Africa</option>
+                    <option value="AS">Asia</option>
+                    <option value="AU">Australia</option>
+                    <option value="EU">Europe</option>
+                    <option value="NA">North America</option>
+                    <option value="SA">South America</option>
+                    <option value="ME">Middle East</option>
+                </select>
+            </form>
+        </div>
+    </body>
+</html>
